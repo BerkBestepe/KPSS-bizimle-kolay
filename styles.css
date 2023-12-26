@@ -77,3 +77,16 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.countdown-box {
+    background-color: #fb690f;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin:auto;
+    position: absolute;
+    margin-left: 50%;
+    
+    transform: translate(-50%, -50%);
+}
