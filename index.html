@@ -1,24 +1,70 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KPSS Bilgi Sitesi</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <!--Bootstrap link href verdim-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
 </head>
+
 <body>
     <header>
+        <img class="logo" src="logo.png" alt="">
         <h1>KPSS BİZİMLE KOLAY</h1>
     </header>
+    <!--  Slider Başlangıç   -->
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imgsl1.png" class="d-block w-100 resimSlider" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="imgsl2.jpg" class="d-block w-100 resimSlider" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="imgsl3.jpg" class="d-block w-100 resimSlider" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
 
+
+    <!--  Slider Bitiş       -->
+
+
+    <!--bootstrap script src verdim-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
     <nav>
         <a href="#home">Ana Sayfa</a>
-        
+
         <div class="dropdown">
-            <a target="_blank" href="takvim.pdf">2024 Takvim</a>
+            <a href="https://dokuman.osym.gov.tr/pdfdokuman/2023/GENEL/stakvim_d06112023.pdf">2024 Takvim</a>
         </div>
-        
+
         <div class="dropdown">
             <button class="dropbtn">Haberler &#9662;</button>
             <div class="dropdown-content">
@@ -27,7 +73,7 @@
                 <a href="#">Etkinlikler</a>
             </div>
         </div>
-        
+
         <div class="dropdown">
             <button class="dropbtn">Sorular ve Cevaplar &#9662;</button>
             <div class="dropdown-content">
@@ -36,40 +82,47 @@
                 <a href="#">Sınav Teknikleri</a>
             </div>
         </div>
-        
+
         <a href="#prep">KPSS Hazırlık</a>
-        
+
         <div class="dropdown">
             <button class="dropbtn">İletişim &#9662;</button>
             <div class="dropdown-content">
                 <a href="#">Bize Ulaşın</a>
                 <a href="#">Adres Bilgileri</a>
-                <a target= "_blank" href=https://www.instagram.com/berk5tepe>Sosyal Medya</a>
-            </div>
-        </div>
-        
-    </nav>
-    <section id="countdown-container">    <script src="count-down.js"></script></section>
+                <a href=https://www.instagram.com/berk5tepe>Sosyal Medya</a> </div> </div> </nav> <section
+                    id="countdown-container">
+                    <script src="count-down.js"></script>
+                    </section>
 
-    <section id="home">
-        <h2>Hoş Geldiniz!</h2>
-        <p>En güncel KPSS bilgilerine ulaşmak için sitemizi ziyaret edin.</p>
-    </section>
+                    <section id="home">
+                        <h2>Hoş Geldiniz!</h2>
+                        <p>En güncel KPSS bilgilerine ulaşmak için sitemizi ziyaret edin.</p>
+                    </section>
 
-    <section id="about">
-        <h2>KPSS Hakkında</h2>
-        <p>Kamu Personeli Seçme Sınavı (KPSS), ... (KPSS B GRUBU HAKKINDA HER ŞEY).</p>
-    </section>
+                    <section id="about">
+                        <h2>KPSS Hakkında</h2>
+                        <p>Kamu Personeli Seçme Sınavı (KPSS), ... (KPSS B GRUBU HAKKINDA HER ŞEY).  Kamu Personel Seçme Sınavı (KPSS), “Kamu Görevlerine İlk Defa Atanacaklar İçin Yapılacak Sınavlar Hakkında Genel Yönetmelik”te (A) grubu olarak adlandırılan kadrolara atanacaklar için kurumların kendi mevzuatına göre düzenleyecekleri giriş sınavına kabul edilecekleri belirlemek ve (B) grubu olarak adlandırılan kadrolara atanmaya esas olacak yerleştirmeyi yapmak amacıyla kullanılacak olan puanları sağlayan ve ÖSYM tarafından yapılan merkezi bir sınavdır.
+            
+                        Kamu kurum ve kuruluşlarının bazı kadro ve pozisyonlarına, “Kamu Görevlerine İlk Defa Atanacaklar İçin Yapılacak Sınavlar Hakkında Genel Yönetmelik” hükümleri uyarınca ÖSYM tarafından yerleştirme yapılmaktadır.
+            
+                         Yönetmelik'te, kamu görevlerine ilk defa atama yapılacak kadrolar A Grubu Kadrolar ve B Grubu Kadrolar olmak üzere ikiye ayrılmıştır.
+            
+                         a) A Grubu Kadrolar; Bakanlıklar,başkanlık ve bağımsız genel müdürlük düzeyindeki bağlı ve ilgili kuruluşları ile bağlı ortaklıklarındaki, özel yarışma sınavına tabi tutulmak suretiyle girilen ve belirli bir yetişme programı sonrası yeterlik sınavına tabi tutulan mesleklere ilişkin kadro ve görevler ile il özel idareleri ve belediyelerin teftiş kurullarına,
+            
+                         b) B Grubu Kadrolar; kadroları 2 sayılı Genel Kadro ve Usulü Hakkında Cumhurbaşkanlığı Kararnamesi’nin eki listelerde yer alan, genel ve katma bütçeli kurumlarla bunlara bağlı döner sermayeli kuruluşlar, kanunlar ile kurulan fonlar ve kefalet sandıkları, il özel idareleri ve belediyeler, il özel idareleri ve belediyelerin kurdukları birlikler ile bunlara bağlı döner sermayeli kuruluşlar ve diğer kamu kurum ve kuruluşlarında yukarıda (a) bendinde belirtilmiş olan meslekler dışında, ilk defa kamu hizmeti ve görevlerine atama yapılacak kadro ve görevlere atanacaklar içindir.                                  </p>
+                    </section>
 
-    <section id="schedule">
-        <h2>Sınav Takvimi</h2>
-        <div class="dropdown">
-            <a href="2024-takvim.html">2024 Takvim</a>
-        </div>
-    </section>
-    
-    <footer>
-        <p>&copy; 2023 KPSS Bilgi Sitesi</p>
-    </footer>
+                    <section id="schedule">
+                        <h2>Sınav Takvimi</h2>
+                        <div class="dropdown">
+                            <a href="2024-takvim.html">2024 Takvim</a>
+                        </div>
+                    </section>
+
+                    <footer>
+                        <p>&copy; 2023 KPSS Bilgi Sitesi</p>
+                    </footer>
 </body>
+
 </html>
