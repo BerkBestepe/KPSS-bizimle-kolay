@@ -25,7 +25,7 @@ nav a {
     margin: 0 1em;
 }
 
-/* Dropdown styles */
+/* Açılır menü style */
 .dropdown {
     display: inline-block;
     position: relative;
@@ -90,3 +90,13 @@ footer {
     
     transform: translate(-50%, -50%);
 }
+.resimSlider{
+    height: 450px;
+}
+
+ .logo{
+    width: 150px;
+    padding-right: 2% ;
+    margin-left: 32px;
+    
+ }
